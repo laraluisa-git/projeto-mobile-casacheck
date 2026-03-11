@@ -1,6 +1,6 @@
-# 📱 VistoriaApp – App de Vistoria de Imóveis
+# 📱 CasaCheck – App de Vistoria de Imóveis
 
-Aplicativo Android desenvolvido como **Atividade Parcial da disciplina Desenvolvimento para Plataformas Móveis – N700**.
+Aplicativo Android desenvolvido como **Atividade Parcial da disciplina Desenvolvimento para Plataformas Móveis **.
 
 O objetivo do projeto é permitir o **registro completo de vistorias de imóveis diretamente pelo celular**, incluindo fotos, localização GPS, observações por cômodo e geração de laudo.
 
@@ -8,7 +8,7 @@ O objetivo do projeto é permitir o **registro completo de vistorias de imóveis
 
 # 🎯 Sobre o Projeto
 
-O **VistoriaApp** é um sistema mobile para registro de inspeções de imóveis.
+O **CasaCheck** é um sistema mobile para registro de inspeções de imóveis.
 
 O aplicativo permite:
 
@@ -244,10 +244,10 @@ Clique em:
 
 # 👥 Equipe
 
-| Nome | Matrícula |
-|-----|-----|
-| Integrante 1 | XXXXX |
-| Integrante 2 | XXXXX |
+| Nome | 
+|-----|
+|Lara Luisa F N Silva |
+| Integrante 2 | 
 
 ---
 
