@@ -213,12 +213,12 @@ Clique em:
 
 GitHub
 
-[link do repositório]
+[[link do repositório](https://github.com/laraluisa-git/projeto-mobile-casacheck)]
 
 
 APK do aplicativo
 
-[link do APK]
+[[link do APK](https://github.com/laraluisa-git/projeto-mobile-casacheck/releases/tag/v1.0)]
 
 
 ---
