@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta principal – Material Design Blue 800 -->
+    <color name="md_primary">#1565C0</color>
+    <color name="md_primary_dark">#003C8F</color>
+    <color name="md_primary_light">#E3F2FD</color>
+
+    <!-- Accent / FAB – Orange 800 -->
+    <color name="md_accent">#FF6F00</color>
+
+    <!-- Superfícies e fundo -->
+    <color name="md_background">#F5F5F5</color>
+    <color name="md_surface">#FFFFFF</color>
+    <color name="md_outline">#BDBDBD</color>
+
+    <!-- Textos -->
+    <color name="md_on_surface">#212121</color>
+    <color name="md_on_surface_variant">#616161</color>
+
+    <!-- Status de vistoria -->
+    <color name="status_concluida">#2E7D32</color>
+    <color name="status_concluida_bg">#E8F5E9</color>
+    <color name="status_pendente">#F57F17</color>
+    <color name="status_pendente_bg">#FFF8E1</color>
+
+    <!-- Utilitários -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Chips -->
+    <color name="chip_selected_bg">#E3F2FD</color>
+    <color name="chip_selected_stroke">#1565C0</color>
+    <color name="chip_selected_text">#1565C0</color>
+    <color name="chip_unselected_bg">#FFFFFF</color>
+    <color name="chip_unselected_stroke">#BDBDBD</color>
+    <color name="chip_unselected_text">#616161</color>
+</resources>

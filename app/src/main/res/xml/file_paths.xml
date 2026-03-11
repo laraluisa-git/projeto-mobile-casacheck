@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fotos da vistoria -->
+    <external-files-path
+        name="vistoria_fotos"
+        path="Pictures/" />
+
+    <!-- PDFs e documentos -->
+    <external-files-path
+        name="vistoria_docs"
+        path="Documents/" />
+
+    <!-- Cache temporário -->
+    <cache-path
+        name="vistoria_cache"
+        path="." />
+
+</paths>

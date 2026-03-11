@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_background">
+
+    <!-- Toolbar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/md_primary"
+            app:titleTextColor="@color/white"
+            app:navigationIconTint="@color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Formulário scrollável -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:paddingBottom="100dp">
+
+            <!-- ── SEÇÃO: DADOS DO IMÓVEL ── -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DADOS DO IMÓVEL"
+                android:textColor="@color/md_primary"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.1"
+                android:paddingBottom="8dp"
+                android:layout_marginBottom="4dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/md_primary_light"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Campo: Imóvel -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilImovel"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:startIconDrawable="@drawable/ic_home"
+                app:startIconTint="@color/md_on_surface_variant"
+                android:hint="Imóvel (ex: Casa – Rua Azul)">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etImovel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:imeOptions="actionNext" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Campo: Endereço -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilEndereco"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:startIconDrawable="@drawable/ic_location"
+                app:startIconTint="@color/md_on_surface_variant"
+                android:hint="Endereço completo">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etEndereco"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPostalAddress"
+                    android:imeOptions="actionNext" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- ── SEÇÃO: RESPONSÁVEL ── -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RESPONSÁVEL"
+                android:textColor="@color/md_primary"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.1"
+                android:paddingBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/md_primary_light"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Campo: Responsável -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilResponsavel"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:startIconDrawable="@drawable/ic_person"
+                app:startIconTint="@color/md_on_surface_variant"
+                android:hint="Nome do responsável">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etResponsavel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:imeOptions="actionNext" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Campo: Data -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/tilData"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                app:startIconDrawable="@drawable/ic_calendar"
+                app:startIconTint="@color/md_on_surface_variant"
+                android:hint="Data da vistoria (dd/MM/yyyy)">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:imeOptions="actionDone" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- ── BOTÃO: Capturar Localização ── -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCapturarLocalizacao"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="32dp"
+                android:text="Capturar Localização GPS"
+                android:textColor="@color/md_primary"
+                app:icon="@drawable/ic_location"
+                app:iconTint="@color/md_primary"
+                app:strokeColor="@color/md_primary"
+                app:cornerRadius="24dp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Barra inferior fixa com botão Avançar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:elevation="8dp"
+        android:padding="12dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAvancar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="AVANÇAR"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="@color/md_primary"
+            app:cornerRadius="24dp"
+            app:icon="@drawable/ic_arrow_forward"
+            app:iconTint="@color/white"
+            app:iconGravity="end" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

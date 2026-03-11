@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\layout_activity_inspecao.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\activity_inspecao.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\color_chip_selector.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\color\\chip_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_ic_arrow_forward.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\ic_arrow_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_ic_description.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\ic_description.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_ic_add_circle.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\ic_add_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_ic_sensor.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\ic_sensor.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_bg_wave.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\bg_wave.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\layout_item_foto.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\item_foto.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\layout_item_vistoria.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\item_vistoria.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.vistoria.app-debug-36:/xml_file_paths.xml.flat",
+        "source": "com.vistoria.app-main-38:/xml/file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_ic_camera_placeholder.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\ic_camera_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\layout_activity_cadastro_vistoria.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\activity_cadastro_vistoria.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_bg_login_circle.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\bg_login_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_splash.png.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\splash.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_bg_icon_circle.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\bg_icon_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\layout_activity_lista_vistorias.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\activity_lista_vistorias.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\menu_menu_lista.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\menu\\menu_lista.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_ic_check_circle.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\ic_check_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_ic_camera.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\ic_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\color_chip_text_selector.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\color\\chip_text_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\layout_dialog_novo_comodo.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\dialog_novo_comodo.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_ic_location.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\ic_location.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\drawable\\bg_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-debug-36:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    }
+]

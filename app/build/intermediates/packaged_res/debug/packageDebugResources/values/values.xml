@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="comodos_padrao">
+        <item>Sala de Estar</item>
+        <item>Cozinha</item>
+        <item>Quarto Principal</item>
+        <item>Quarto 2</item>
+        <item>Banheiro Social</item>
+        <item>Banheiro Suíte</item>
+        <item>Varanda</item>
+        <item>Garagem</item>
+        <item>Área de Serviço</item>
+        <item>Outro</item>
+    </string-array>
+    <color name="black">#000000</color>
+    <color name="chip_selected_bg">#E3F2FD</color>
+    <color name="chip_selected_stroke">#1565C0</color>
+    <color name="chip_selected_text">#1565C0</color>
+    <color name="chip_unselected_bg">#FFFFFF</color>
+    <color name="chip_unselected_stroke">#BDBDBD</color>
+    <color name="chip_unselected_text">#616161</color>
+    <color name="md_accent">#FF6F00</color>
+    <color name="md_background">#F5F5F5</color>
+    <color name="md_on_surface">#212121</color>
+    <color name="md_on_surface_variant">#616161</color>
+    <color name="md_outline">#BDBDBD</color>
+    <color name="md_primary">#1565C0</color>
+    <color name="md_primary_dark">#003C8F</color>
+    <color name="md_primary_light">#E3F2FD</color>
+    <color name="md_surface">#FFFFFF</color>
+    <color name="status_concluida">#2E7D32</color>
+    <color name="status_concluida_bg">#E8F5E9</color>
+    <color name="status_pendente">#F57F17</color>
+    <color name="status_pendente_bg">#FFF8E1</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Vistoria App</string>
+    <string name="btn_adicionar_comodo">Adicionar Outro Cômodo</string>
+    <string name="btn_avancar">AVANÇAR</string>
+    <string name="btn_capturar_gps">Capturar Localização GPS</string>
+    <string name="btn_finalizar">FINALIZAR VISTORIA</string>
+    <string name="btn_foto">Tirar Foto</string>
+    <string name="btn_gerar_laudo">GERAR LAUDO DA VISTORIA</string>
+    <string name="campo_obrigatorio">Campo obrigatório</string>
+    <string name="cd_excluir_vistoria">Excluir vistoria</string>
+    <string name="cd_foto_comodo">Foto do cômodo</string>
+    <string name="cd_icone_imovel">Ícone do imóvel</string>
+    <string name="foto_adicionada">Foto adicionada!</string>
+    <string name="hint_data">Data da vistoria (dd/MM/yyyy)</string>
+    <string name="hint_endereco">Endereço completo</string>
+    <string name="hint_imovel">Imóvel (ex: Casa – Rua Azul)</string>
+    <string name="hint_observacoes">Descreva o estado do cômodo...</string>
+    <string name="hint_responsavel">Nome do responsável</string>
+    <string name="lista_vazia">Nenhuma vistoria cadastrada</string>
+    <string name="lista_vazia_sub">Toque no + para iniciar uma nova vistoria</string>
+    <string name="localizacao_capturada">Localização capturada com sucesso!</string>
+    <string name="permissao_camera_negada">Permissão de câmera negada. Ative nas configurações.</string>
+    <string name="permissao_gps_negada">Permissão de localização negada. Ative nas configurações.</string>
+    <string name="title_inspecao">Inspeção</string>
+    <string name="title_lista">Vistorias</string>
+    <string name="title_nova_vistoria">Nova Vistoria</string>
+    <string name="vistoria_concluida">Vistoria concluída!</string>
+    <style name="Theme.VistoriaApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/md_primary</item>
+        <item name="colorPrimaryDark">@color/md_primary_dark</item>
+        <item name="colorPrimaryVariant">@color/md_primary_dark</item>
+        <item name="colorSecondary">@color/md_accent</item>
+        <item name="colorSecondaryVariant">@color/md_accent</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/md_surface</item>
+        <item name="colorOnSurface">@color/md_on_surface</item>
+        <item name="android:colorBackground">@color/md_background</item>
+
+        
+        <item name="android:fontFamily">sans-serif</item>
+
+        
+        <item name="android:statusBarColor">@color/md_primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        
+        <item name="android:navigationBarColor">@color/md_background</item>
+
+        
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+
+        
+        <item name="materialButtonStyle">@style/Widget.MaterialComponents.Button</item>
+
+        
+        <item name="chipStyle">@style/Widget.MaterialComponents.Chip.Filter</item>
+    </style>
+    <style name="Theme.VistoriaApp.Splash" parent="Theme.VistoriaApp">
+        <item name="android:windowBackground">@color/md_primary</item>
+    </style>
+</resources>

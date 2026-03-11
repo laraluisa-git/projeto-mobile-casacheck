@@ -1,0 +1,265 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vistoria.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="26"
+8-->INJECTED
+9        android:targetSdkVersion="35" />
+9-->INJECTED
+10
+11    <!-- Permissões de localização (GPS) -->
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:6:5-81
+13-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:6:22-78
+14
+15    <!-- Permissões de câmera -->
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:9:5-65
+16-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:9:22-62
+17
+18    <uses-feature
+18-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:10:5-85
+19        android:name="android.hardware.camera"
+19-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:10:19-57
+20        android:required="false" />
+20-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:10:58-82
+21
+22    <!-- Permissões de armazenamento -->
+23    <uses-permission
+23-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:13:5-14:38
+24        android:name="android.permission.READ_EXTERNAL_STORAGE"
+24-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:13:22-77
+25        android:maxSdkVersion="32" />
+25-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:14:9-35
+26    <uses-permission
+26-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:15:5-16:38
+27        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+27-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:15:22-78
+28        android:maxSdkVersion="29" />
+28-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:16:9-35
+29    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+29-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:17:5-76
+29-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:17:22-73
+30
+31    <!-- Permissão de notificações (Android 13+) -->
+32    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+32-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:20:5-77
+32-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:20:22-74
+33
+34    <!-- Acelerômetro (sensor, não precisa de permissão declarada) -->
+35    <uses-feature
+35-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:23:5-99
+36        android:name="android.hardware.sensor.accelerometer"
+36-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:23:19-71
+37        android:required="false" />
+37-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:23:72-96
+38
+39    <permission
+39-->[androidx.core:core:1.13.1] C:\Users\User\.gradle\caches\9.3.1\transforms\4c64c7142c0dd4d84a80c9bfb9384bc3\workspace\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+40        android:name="com.vistoria.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.13.1] C:\Users\User\.gradle\caches\9.3.1\transforms\4c64c7142c0dd4d84a80c9bfb9384bc3\workspace\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.13.1] C:\Users\User\.gradle\caches\9.3.1\transforms\4c64c7142c0dd4d84a80c9bfb9384bc3\workspace\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.vistoria.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.13.1] C:\Users\User\.gradle\caches\9.3.1\transforms\4c64c7142c0dd4d84a80c9bfb9384bc3\workspace\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.13.1] C:\Users\User\.gradle\caches\9.3.1\transforms\4c64c7142c0dd4d84a80c9bfb9384bc3\workspace\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+44
+45    <application
+45-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:25:5-82:19
+46        android:allowBackup="true"
+46-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:26:9-35
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.13.1] C:\Users\User\.gradle\caches\9.3.1\transforms\4c64c7142c0dd4d84a80c9bfb9384bc3\workspace\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+48        android:debuggable="true"
+49        android:extractNativeLibs="false"
+49-->INJECTED
+50        android:icon="@mipmap/ic_launcher"
+50-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:27:9-43
+51        android:label="@string/app_name"
+51-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:28:9-41
+52        android:roundIcon="@mipmap/ic_launcher_round"
+52-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:29:9-54
+53        android:supportsRtl="true"
+53-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:30:9-35
+54        android:testOnly="true"
+55        android:theme="@style/Theme.VistoriaApp"
+55-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:31:9-49
+56        android:usesCleartextTraffic="true" >
+56-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:32:9-44
+57
+58        <!-- Activity de login – LAUNCHER (tela inicial) -->
+59        <activity
+59-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:35:9-43:20
+60            android:name="com.vistoria.app.ui.splash.SplashActivity"
+60-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:36:13-53
+61            android:exported="true"
+61-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:37:13-36
+62            android:label="@string/app_name" >
+62-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:38:13-45
+63            <intent-filter>
+63-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:39:13-42:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:40:17-69
+64-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:40:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:41:17-77
+66-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:41:27-74
+67            </intent-filter>
+68        </activity>
+69        <activity
+69-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:45:9-49:58
+70            android:name="com.vistoria.app.ui.login.LoginActivity"
+70-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:46:13-51
+71            android:exported="false"
+71-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:47:13-37
+72            android:label="@string/app_name"
+72-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:48:13-45
+73            android:windowSoftInputMode="adjustResize" />
+73-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:49:13-55
+74
+75        <!-- Activity principal: lista de vistorias -->
+76        <activity
+76-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:52:9-55:48
+77            android:name="com.vistoria.app.ui.lista.ListaVistoriasActivity"
+77-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:53:13-60
+78            android:exported="false"
+78-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:54:13-37
+79            android:label="@string/app_name" />
+79-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:55:13-45
+80
+81        <!-- Activity de cadastro da vistoria -->
+82        <activity
+82-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:58:9-62:77
+83            android:name="com.vistoria.app.ui.cadastro.CadastroVistoriaActivity"
+83-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:59:13-65
+84            android:exported="false"
+84-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:60:13-37
+85            android:label="Nova Vistoria"
+85-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:61:13-42
+86            android:parentActivityName="com.vistoria.app.ui.lista.ListaVistoriasActivity" />
+86-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:62:13-74
+87
+88        <!-- Activity de inspeção do imóvel -->
+89        <activity
+89-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:65:9-69:77
+90            android:name="com.vistoria.app.ui.inspecao.InspecaoActivity"
+90-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:66:13-57
+91            android:exported="false"
+91-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:67:13-37
+92            android:label="Inspeção"
+92-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:68:13-37
+93            android:parentActivityName="com.vistoria.app.ui.lista.ListaVistoriasActivity" />
+93-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:69:13-74
+94
+95        <!-- FileProvider para compartilhar fotos da câmera -->
+96        <provider
+96-->INJECTED
+97            android:name="androidx.core.content.FileProvider"
+97-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:73:13-62
+98            android:authorities="com.vistoria.app.fileprovider"
+98-->INJECTED
+99            android:exported="false"
+99-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:75:13-37
+100            android:grantUriPermissions="true" >
+100-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:76:13-47
+101            <meta-data
+101-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:77:13-79:54
+102                android:name="android.support.FILE_PROVIDER_PATHS"
+102-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:78:17-67
+103                android:resource="@xml/file_paths" />
+103-->C:\codes\VistoriaApp\app\src\main\AndroidManifest.xml:79:17-51
+104        </provider>
+105
+106        <activity
+106-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\User\.gradle\caches\9.3.1\transforms\1a962be81900a9f16065198f25e0158c\workspace\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+107            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+107-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\User\.gradle\caches\9.3.1\transforms\1a962be81900a9f16065198f25e0158c\workspace\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+108            android:exported="false"
+108-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\User\.gradle\caches\9.3.1\transforms\1a962be81900a9f16065198f25e0158c\workspace\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+109-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\User\.gradle\caches\9.3.1\transforms\1a962be81900a9f16065198f25e0158c\workspace\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+110
+111        <meta-data
+111-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\3cab2a026a5fbabcc486cb01dfca772b\workspace\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+112            android:name="com.google.android.gms.version"
+112-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\3cab2a026a5fbabcc486cb01dfca772b\workspace\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+113            android:value="@integer/google_play_services_version" />
+113-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\3cab2a026a5fbabcc486cb01dfca772b\workspace\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+114
+115        <provider
+115-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\9.3.1\transforms\bd6c2efc9c8340a8eb0cdb8876ffb553\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+116            android:name="androidx.startup.InitializationProvider"
+116-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\9.3.1\transforms\bd6c2efc9c8340a8eb0cdb8876ffb553\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+117            android:authorities="com.vistoria.app.androidx-startup"
+117-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\9.3.1\transforms\bd6c2efc9c8340a8eb0cdb8876ffb553\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+118            android:exported="false" >
+118-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\9.3.1\transforms\bd6c2efc9c8340a8eb0cdb8876ffb553\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+119            <meta-data
+119-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\9.3.1\transforms\bd6c2efc9c8340a8eb0cdb8876ffb553\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+120                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+120-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\9.3.1\transforms\bd6c2efc9c8340a8eb0cdb8876ffb553\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+121                android:value="androidx.startup" />
+121-->[androidx.emoji2:emoji2:1.3.0] C:\Users\User\.gradle\caches\9.3.1\transforms\bd6c2efc9c8340a8eb0cdb8876ffb553\workspace\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+122            <meta-data
+122-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\User\.gradle\caches\9.3.1\transforms\f8f7f3ce53c13afda6faccc4a44e5f6c\workspace\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+123                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+123-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\User\.gradle\caches\9.3.1\transforms\f8f7f3ce53c13afda6faccc4a44e5f6c\workspace\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+124                android:value="androidx.startup" />
+124-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\User\.gradle\caches\9.3.1\transforms\f8f7f3ce53c13afda6faccc4a44e5f6c\workspace\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+125            <meta-data
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+126                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+127                android:value="androidx.startup" />
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+128        </provider>
+129
+130        <receiver
+130-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+131            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+132            android:directBootAware="false"
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+133            android:enabled="true"
+133-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+134            android:exported="true"
+134-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+135            android:permission="android.permission.DUMP" >
+135-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+137                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+137-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+137-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+138            </intent-filter>
+139            <intent-filter>
+139-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+140                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+140-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+140-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+141            </intent-filter>
+142            <intent-filter>
+142-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+143                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+143-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+143-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+144            </intent-filter>
+145            <intent-filter>
+145-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+146                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+146-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+146-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\User\.gradle\caches\9.3.1\transforms\f3d2e34bdffcb4c52a32ecae54dbbc29\workspace\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+147            </intent-filter>
+148        </receiver>
+149    </application>
+150
+151</manifest>

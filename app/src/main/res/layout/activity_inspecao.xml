@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_background">
+
+    <!-- Toolbar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/md_primary"
+            app:titleTextColor="@color/white"
+            app:subtitleTextColor="@color/white"
+            app:navigationIconTint="@color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Conteúdo scrollável -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:paddingBottom="200dp">
+
+            <!-- Título do imóvel -->
+            <TextView
+                android:id="@+id/tvTituloInspecao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vistoria: "
+                android:textColor="@color/md_on_surface"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp" />
+
+            <!-- ── CARD: Acelerômetro ── -->
+            <LinearLayout
+                android:id="@+id/layoutAcelerometro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_card"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_sensor"
+                    android:contentDescription="Sensor"
+                    app:tint="@color/md_primary" />
+
+                <TextView
+                    android:id="@+id/tvAcelerometro"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:text="Acelerômetro: aguardando..."
+                    android:textColor="@color/md_primary"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <!-- ── CARD: Seleção de Cômodo ── -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SELECIONAR CÔMODO"
+                        android:textColor="@color/md_primary"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.1"
+                        android:layout_marginBottom="12dp" />
+
+                    <!-- ChipGroup para seleção de cômodo -->
+                    <com.google.android.material.chip.ChipGroup
+                        android:id="@+id/chipGroupComodos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:singleSelection="true"
+                        app:selectionRequired="true" />
+
+                    <!-- Cômodo atualmente selecionado -->
+                    <TextView
+                        android:id="@+id/tvComodoAtual"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Sala de Estar"
+                        android:textColor="@color/md_primary"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- ── CARD: Observações ── -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="OBSERVAÇÕES"
+                        android:textColor="@color/md_primary"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.1"
+                        android:layout_marginBottom="12dp" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Descreva o estado do cômodo...">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etObservacoes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:minLines="4"
+                            android:maxLines="8"
+                            android:inputType="textMultiLine"
+                            android:gravity="top|start" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- ── CARD: Fotos ── -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="FOTOS DO CÔMODO"
+                        android:textColor="@color/md_primary"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.1"
+                        android:layout_marginBottom="12dp" />
+
+                    <!-- Botão câmera (área tracejada) -->
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnFoto"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:text="Tirar Foto"
+                        android:textColor="@color/md_on_surface_variant"
+                        app:icon="@drawable/ic_camera"
+                        app:iconTint="@color/md_primary"
+                        app:iconSize="28dp"
+                        app:strokeColor="@color/md_outline"
+                        app:cornerRadius="10dp" />
+
+                    <!-- RecyclerView horizontal para thumbnails -->
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvFotos"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="12dp"
+                        android:orientation="horizontal"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- ── BARRA DE AÇÕES FIXA NO RODAPÉ ── -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:elevation="8dp"
+        android:padding="12dp">
+
+        <!-- Botão: Adicionar outro cômodo -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAdicionarComodo"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginBottom="8dp"
+            android:text="Adicionar Outro Cômodo"
+            android:textColor="@color/md_primary"
+            app:icon="@drawable/ic_add_circle"
+            app:iconTint="@color/md_primary"
+            app:strokeColor="@color/md_primary"
+            app:cornerRadius="22dp" />
+
+        <!-- Botão: Gerar Laudo -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGerarLaudo"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginBottom="8dp"
+            android:text="GERAR LAUDO DA VISTORIA"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="@color/md_accent"
+            app:icon="@drawable/ic_description"
+            app:iconTint="@color/white"
+            app:cornerRadius="22dp" />
+
+        <!-- Botão: Finalizar vistoria -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnFinalizar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="FINALIZAR VISTORIA"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:backgroundTint="@color/status_concluida"
+            app:icon="@drawable/ic_check_circle"
+            app:iconTint="@color/white"
+            app:cornerRadius="24dp" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

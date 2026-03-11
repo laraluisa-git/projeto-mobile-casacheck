@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.vistoria.app-mergeDebugResources-34:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\9.3.1\\transforms\\517fba25abe8495cdf911f980c45096c\\workspace\\transformed\\appcompat-1.7.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

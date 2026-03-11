@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-mergeDebugResources-35:\\layout\\activity_lista_vistorias.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\activity_lista_vistorias.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-mergeDebugResources-35:\\layout\\item_foto.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\item_foto.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-mergeDebugResources-35:\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-mergeDebugResources-35:\\layout\\dialog_novo_comodo.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\dialog_novo_comodo.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-mergeDebugResources-35:\\layout\\item_vistoria.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\item_vistoria.xml"
+    },
+    {
+        "merged": "com.vistoria.app-mergeDebugResources-35:/layout/activity_login.xml",
+        "source": "com.vistoria.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-mergeDebugResources-35:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-mergeDebugResources-35:\\layout\\activity_inspecao.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\activity_inspecao.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-mergeDebugResources-35:\\layout\\activity_cadastro_vistoria.xml",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\9.3.1\\com.vistoria.app-main-38:\\layout\\activity_cadastro_vistoria.xml"
+    }
+]

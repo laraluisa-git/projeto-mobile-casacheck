@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardVistoria"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="6dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Barra lateral colorida (indica status) -->
+        <View
+            android:id="@+id/barraStatus"
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="@color/md_primary" />
+
+        <!-- Ícone do tipo de imóvel -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="12dp">
+
+            <ImageView
+                android:id="@+id/ivIconeImovel"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:src="@drawable/ic_home"
+                android:padding="10dp"
+                android:background="@drawable/bg_icon_circle"
+                android:contentDescription="Ícone do imóvel" />
+
+        </LinearLayout>
+
+        <!-- Dados textuais da vistoria -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="12dp"
+            android:paddingStart="4dp">
+
+            <!-- Nome do imóvel -->
+            <TextView
+                android:id="@+id/tvNomeImovel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nome do Imóvel"
+                android:textColor="@color/md_on_surface"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <!-- Endereço -->
+            <TextView
+                android:id="@+id/tvEndereco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Endereço completo"
+                android:textColor="@color/md_on_surface_variant"
+                android:textSize="13sp"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <!-- Linha com data e responsável -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/ic_calendar"
+                    android:contentDescription="Data" />
+
+                <TextView
+                    android:id="@+id/tvData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:text="00/00/0000"
+                    android:textColor="@color/md_on_surface_variant"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/ic_person"
+                    android:contentDescription="Responsável" />
+
+                <TextView
+                    android:id="@+id/tvResponsavel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:text="Responsável"
+                    android:textColor="@color/md_on_surface_variant"
+                    android:textSize="12sp"
+                    android:maxLines="1"
+                    android:ellipsize="end" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Coluna direita: chip de status + botão excluir -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <!-- Chip de status -->
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Em andamento"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:chipMinHeight="24dp" />
+
+            <!-- Botão excluir -->
+            <ImageButton
+                android:id="@+id/btnExcluir"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_delete"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:tint="@color/md_on_surface_variant"
+                android:contentDescription="Excluir vistoria" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

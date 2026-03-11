@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vistoria App</string>
+    <string name="title_lista">Vistorias</string>
+    <string name="title_nova_vistoria">Nova Vistoria</string>
+    <string name="title_inspecao">Inspeção</string>
+
+    <!-- Campos do formulário -->
+    <string name="hint_imovel">Imóvel (ex: Casa – Rua Azul)</string>
+    <string name="hint_endereco">Endereço completo</string>
+    <string name="hint_responsavel">Nome do responsável</string>
+    <string name="hint_data">Data da vistoria (dd/MM/yyyy)</string>
+    <string name="hint_observacoes">Descreva o estado do cômodo...</string>
+
+    <!-- Botões -->
+    <string name="btn_capturar_gps">Capturar Localização GPS</string>
+    <string name="btn_avancar">AVANÇAR</string>
+    <string name="btn_foto">Tirar Foto</string>
+    <string name="btn_adicionar_comodo">Adicionar Outro Cômodo</string>
+    <string name="btn_gerar_laudo">GERAR LAUDO DA VISTORIA</string>
+    <string name="btn_finalizar">FINALIZAR VISTORIA</string>
+
+    <!-- Mensagens -->
+    <string name="lista_vazia">Nenhuma vistoria cadastrada</string>
+    <string name="lista_vazia_sub">Toque no + para iniciar uma nova vistoria</string>
+    <string name="permissao_camera_negada">Permissão de câmera negada. Ative nas configurações.</string>
+    <string name="permissao_gps_negada">Permissão de localização negada. Ative nas configurações.</string>
+    <string name="vistoria_concluida">Vistoria concluída!</string>
+    <string name="foto_adicionada">Foto adicionada!</string>
+    <string name="campo_obrigatorio">Campo obrigatório</string>
+    <string name="localizacao_capturada">Localização capturada com sucesso!</string>
+
+    <!-- Cômodos padrão -->
+    <string-array name="comodos_padrao">
+        <item>Sala de Estar</item>
+        <item>Cozinha</item>
+        <item>Quarto Principal</item>
+        <item>Quarto 2</item>
+        <item>Banheiro Social</item>
+        <item>Banheiro Suíte</item>
+        <item>Varanda</item>
+        <item>Garagem</item>
+        <item>Área de Serviço</item>
+        <item>Outro</item>
+    </string-array>
+
+    <!-- ContentDescriptions para acessibilidade -->
+    <string name="cd_icone_imovel">Ícone do imóvel</string>
+    <string name="cd_excluir_vistoria">Excluir vistoria</string>
+    <string name="cd_foto_comodo">Foto do cômodo</string>
+</resources>
