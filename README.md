@@ -183,7 +183,8 @@ VistoriaApp
 │ └── AndroidManifest.xml
 │
 └── README.md
-
+![Pastas](screenshots/pastas.png)
+![Pastas2](screenshots/pastas2.png)
 
 ---
 
