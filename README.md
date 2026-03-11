@@ -140,51 +140,8 @@ Função:
 
 # 📁 Estrutura do Projeto
 
-
-VistoriaApp
-│
-├── app
-│ ├── src/main
-│ │
-│ ├── java/com/vistoria/app
-│ │
-│ │ ├── data
-│ │ │ ├── model
-│ │ │ │ ├── Vistoria.java
-│ │ │ │ └── Comodo.java
-│ │ │ │
-│ │ │ └── repository
-│ │ │ └── VistoriaRepository.java
-│ │ │
-│ │ ├── ui
-│ │ │ ├── lista
-│ │ │ │ ├── ListaVistoriasActivity.java
-│ │ │ │ └── VistoriaAdapter.java
-│ │ │ │
-│ │ │ ├── cadastro
-│ │ │ │ └── CadastroVistoriaActivity.java
-│ │ │ │
-│ │ │ └── inspecao
-│ │ │ ├── InspecaoActivity.java
-│ │ │ └── FotoAdapter.java
-│ │ │
-│ │ └── util
-│ │ ├── PermissaoHelper.java
-│ │ ├── NotificacaoHelper.java
-│ │ └── GeradorLaudoPdf.java
-│ │
-│ ├── res
-│ │ ├── layout
-│ │ ├── drawable
-│ │ ├── values
-│ │ └── xml
-│ │ └── file_paths.xml
-│ │
-│ └── AndroidManifest.xml
-│
-└── README.md
-![Pastas](screenshots/pastas.png)
-![Pastas2](screenshots/pastas2.png)
+![Pastas](screenshots/pastas.jpeg)
+![Pastas2](screenshots/pastas2.jpeg)
 
 ---
 
