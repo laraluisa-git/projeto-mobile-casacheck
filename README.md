@@ -211,6 +211,10 @@ Clique em:
 
 # 🔗 Links
 
+Protótipo Figma
+
+[[Link do Protótipo Figma](https://www.figma.com/proto/Tgk6oWrEM7q8kvskVnJrcv/CasaCheck---Vistoria-de-Im%C3%B3veis?node-id=14-2&p=f&t=7w4kn3Vr0XsNGbz2-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1)]
+
 GitHub
 
 [[link do repositório](https://github.com/laraluisa-git/projeto-mobile-casacheck)]
