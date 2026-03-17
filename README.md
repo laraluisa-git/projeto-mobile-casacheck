@@ -205,7 +205,8 @@ Clique em:
 | Nome | 
 |-----|
 |Lara Luisa F N Silva |
-| Integrante 2 | 
+|Luiz Felipe Sousa Paiva |
+| Integrante 3 | 
 
 ---
 
