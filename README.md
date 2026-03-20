@@ -205,8 +205,8 @@ Clique em:
 |----- | -----| 
 | Amanda Duarte Macedo | 2415526 |
 | Giuseppe Sarto Carvalho Rodrigues | 2425265 |
-| Jos´e Aur´elio Bas´ılio Madeira Neto | 2425116 |
-| Lara Luisa F´elix Nunes da Silva | 2425072 |
+| José Aurélio Basílio Madeira Neto | 2425116 |
+| Lara Luisa Félix Nunes da Silva | 2425072 |
 | Luiz Felipe Sousa Paiva | 2425122 |
 | Thomaz Maia de Almeida | 2425266 |
 
