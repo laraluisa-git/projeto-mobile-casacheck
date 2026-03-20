@@ -199,14 +199,16 @@ Clique em:
 - Gradle **8+**
 
 ---
+# 👥 Equipe - Grupo 8
 
-# 👥 Equipe
-
-| Nome | 
-|-----|
-|Lara Luisa F N Silva |
-|Luiz Felipe Sousa Paiva |
-| Integrante 3 | 
+| Nome | Matrícula |
+|----- | -----| 
+| Amanda Duarte Macedo | 2415526 |
+| Giuseppe Sarto Carvalho Rodrigues | 2425265 |
+| Jos´e Aur´elio Bas´ılio Madeira Neto | 2425116 |
+| Lara Luisa F´elix Nunes da Silva | 2425072 |
+| Luiz Felipe Sousa Paiva | 2425122 |
+| Thomaz Maia de Almeida | 2425266 |
 
 ---
 
